@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bee_and_puppycat_wallpaper___ixpap"
+    tools:context=".moviesActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/showPG13Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SHOW ALL MOVIES WITH PG13 RATING" />
+
+            <Button
+                android:id="@+id/buttonShowAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show All Songs" />
+
+            <Button
+                android:id="@+id/backbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:onClick="onBackButtonClick" />
+
+            <Spinner
+                android:id="@+id/yearSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/year_array" />
+
+            <ListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="794dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
