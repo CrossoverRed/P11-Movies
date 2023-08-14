@@ -27,7 +27,7 @@
                 android:id="@+id/buttonShowAll"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Show All Songs" />
+                android:text="Show All Movies" />
 
             <Button
                 android:id="@+id/backbtn"
